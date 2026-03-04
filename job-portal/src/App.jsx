@@ -4,6 +4,7 @@ import Home from "./Home";
 import Jobs from "./Jobs";
 import JobDetails from "./JobDetails";
 import PostJob from "./PostJob";
+import PostResume from "./PostResume";
 import "./App.css";
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
           <Route path="/jobs" element={<Jobs />} />
           <Route path="/jobs/:id" element={<JobDetails />} />
           <Route path="/post-job" element={<PostJob />} />
+          <Route path="/post-resume" element={<PostResume />} />
         </Routes>
       </div>
     </Router>

@@ -7,6 +7,7 @@ function Jobs() {
     { id: 3, title: "Software Engineer", company: "Accenture" },
     { id: 4, title: "Devops", company: "zoho" },
     { id: 5, title: "Software Testing", company: "IBM" },
+    { id: 6, title: "Full Stack Developer", company: "HCL" },
   ];
 
   return (

@@ -55,3 +55,22 @@ body {
 .btn:hover {
   background: #1d4ed8;
 }
+.event{
+  margin-left: 400px;
+  height: 120px;
+  width:800px;
+  border: solid whitesmoke;
+  border-radius: 20px;
+  width:700px;
+  background-color: cadetblue;
+  display: flex;
+}
+.ebtn{
+  height: 40px;
+  margin-top: 35px;
+  margin-right: 7px;
+  width: 100px;
+  border-radius: 10px;
+  display: flex;
+  justify-content:flex-end;
+}
